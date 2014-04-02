@@ -14,4 +14,4 @@ angular.module('toddlerDutyApp')
   .constant('loginProviders', 'facebook,twitter,password')
 
   // your Firebase URL goes here
-  .constant('FBURL', 'https://toddlerduty.firebaseio.com');
+  .constant('FBURL', 'https://toddler-duty.firebaseio.com');
