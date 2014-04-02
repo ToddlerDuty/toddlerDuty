@@ -1,0 +1,23 @@
+User Model Draft 1.0
+user: {
+	name: <string>
+	email: <string>
+	sms: <string>
+	phone: <string>
+	shedules: [{
+		event_name: <string>
+		start_time: <date time>
+		end_time: <date time>
+		alert_at: <date time>
+		escalate_at: <date time>
+		esclate_to: <id fkey user>
+		toddler_id: <id fkey toddler>
+	}]
+	partner_users: [<id fkey user>]
+}
+
+toddler: {
+	id: <int>
+	name: <string>
+	avatar: <url to house photo>
+}
